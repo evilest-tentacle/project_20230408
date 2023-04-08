@@ -1,0 +1,110 @@
+2023/03/29 15:06:33 [notice] 249945#249945: using the "epoll" event method
+2023/03/29 15:06:33 [notice] 249945#249945: nginx/1.22.1
+2023/03/29 15:06:33 [notice] 249945#249945: OS: Linux 6.1.19-30.43.amzn2023.x86_64
+2023/03/29 15:06:33 [notice] 249945#249945: getrlimit(RLIMIT_NOFILE): 65535:65535
+2023/03/29 15:06:33 [notice] 249946#249946: start worker processes
+2023/03/29 15:06:33 [notice] 249946#249946: start worker process 249947
+2023/03/29 15:06:33 [notice] 249946#249946: start worker process 249948
+2023/03/29 15:10:07 [error] 249948#249948: *1 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 104.193.10.220, server: localhost, request: "GET / HTTP/1.1", host: "13.48.132.59:34568"
+2023/03/29 15:10:08 [error] 249947#249947: *2 open() "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/favicon.ico" failed (13: Permission denied), client: 104.193.10.220, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "13.48.132.59:34568", referrer: "http://13.48.132.59:34568/"
+2023/03/29 15:12:23 [error] 249948#249948: *3 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:34568"
+2023/03/29 15:25:43 [notice] 251063#251063: using the "epoll" event method
+2023/03/29 15:25:43 [notice] 251063#251063: nginx/1.22.1
+2023/03/29 15:25:43 [notice] 251063#251063: OS: Linux 6.1.19-30.43.amzn2023.x86_64
+2023/03/29 15:25:43 [notice] 251063#251063: getrlimit(RLIMIT_NOFILE): 65535:65535
+2023/03/29 15:25:43 [notice] 251069#251069: start worker processes
+2023/03/29 15:25:43 [notice] 251069#251069: start worker process 251074
+2023/03/29 15:25:43 [notice] 251069#251069: start worker process 251075
+2023/03/29 15:26:03 [error] 251075#251075: *1 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:34568"
+2023/03/29 15:26:21 [error] 251074#251074: *2 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 172.31.10.105, server: , request: "GET / HTTP/1.1", host: "172.31.10.105:34568"
+2023/03/30 13:41:07 [error] 251075#251075: *3 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 104.193.8.71, server: , request: "GET / HTTP/1.1", host: "13.48.132.59:34568"
+2023/03/30 13:41:14 [error] 251075#251075: *4 open() "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/favicon.ico" failed (13: Permission denied), client: 104.193.8.71, server: , request: "GET /favicon.ico HTTP/1.1", host: "13.48.132.59:34568", referrer: "http://13.48.132.59:34568/"
+2023/03/30 14:02:01 [error] 251075#251075: *5 open() "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/robots.txt" failed (13: Permission denied), client: 157.55.39.225, server: , request: "GET /robots.txt HTTP/1.1", host: "13.48.132.59"
+2023/03/30 14:02:09 [error] 251075#251075: *6 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 52.167.144.41, server: , request: "GET / HTTP/1.1", host: "13.48.132.59"
+2023/03/30 14:02:29 [error] 251075#251075: *7 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 52.167.144.41, server: , request: "GET / HTTP/1.1", host: "13.48.132.59"
+2023/03/30 14:02:59 [error] 251075#251075: *8 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 52.167.144.41, server: , request: "GET / HTTP/1.1", host: "13.48.132.59"
+2023/03/30 14:03:49 [error] 251075#251075: *9 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 52.167.144.41, server: , request: "GET / HTTP/1.1", host: "13.48.132.59"
+2023/03/30 14:05:40 [error] 251075#251075: *10 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 52.167.144.41, server: , request: "GET / HTTP/1.1", host: "13.48.132.59"
+2023/03/30 14:06:16 [notice] 251069#251069: signal 1 (SIGHUP) received from 299129, reconfiguring
+2023/03/30 14:06:16 [notice] 251069#251069: reconfiguring
+2023/03/30 14:06:16 [warn] 251069#251069: could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+2023/03/30 14:06:16 [notice] 251069#251069: using the "epoll" event method
+2023/03/30 14:06:16 [notice] 251069#251069: start worker processes
+2023/03/30 14:06:16 [notice] 251069#251069: start worker process 299130
+2023/03/30 14:06:16 [notice] 251069#251069: start worker process 299131
+2023/03/30 14:06:16 [notice] 251074#251074: gracefully shutting down
+2023/03/30 14:06:16 [notice] 251074#251074: exiting
+2023/03/30 14:06:16 [notice] 251074#251074: exit
+2023/03/30 14:06:16 [notice] 251075#251075: gracefully shutting down
+2023/03/30 14:06:16 [notice] 251075#251075: exiting
+2023/03/30 14:06:16 [notice] 251075#251075: exit
+2023/03/30 14:06:16 [notice] 251069#251069: signal 17 (SIGCHLD) received from 251074
+2023/03/30 14:06:16 [notice] 251069#251069: worker process 251074 exited with code 0
+2023/03/30 14:06:16 [notice] 251069#251069: signal 29 (SIGIO) received
+2023/03/30 14:06:16 [notice] 251069#251069: signal 17 (SIGCHLD) received from 251075
+2023/03/30 14:06:16 [notice] 251069#251069: worker process 251075 exited with code 0
+2023/03/30 14:06:16 [notice] 251069#251069: signal 29 (SIGIO) received
+2023/03/30 14:06:28 [error] 299131#299131: *11 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 104.193.8.71, server: , request: "GET / HTTP/1.1", host: "13.48.132.59:34568"
+2023/03/30 14:06:29 [error] 299130#299130: *12 open() "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/favicon.ico" failed (13: Permission denied), client: 104.193.8.71, server: , request: "GET /favicon.ico HTTP/1.1", host: "13.48.132.59:34568", referrer: "http://13.48.132.59:34568/"
+2023/03/30 14:06:41 [error] 299131#299131: *13 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 104.193.8.71, server: , request: "GET / HTTP/1.1", host: "13.48.132.59:34568"
+2023/03/30 14:06:43 [error] 299131#299131: *14 open() "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/favicon.ico" failed (13: Permission denied), client: 104.193.8.71, server: , request: "GET /favicon.ico HTTP/1.1", host: "13.48.132.59:34568", referrer: "http://13.48.132.59:34568/"
+2023/03/30 14:08:20 [error] 299131#299131: *15 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 52.167.144.41, server: , request: "GET / HTTP/1.1", host: "13.48.132.59"
+2023/03/30 14:13:30 [error] 299131#299131: *16 "/home/ec2-user/websocket_20230329/chatgpt-stream/dist/index.html" is forbidden (13: Permission denied), client: 52.167.144.41, server: , request: "GET / HTTP/1.1", host: "13.48.132.59"
+2023/03/30 14:15:28 [notice] 251069#251069: signal 1 (SIGHUP) received from 299579, reconfiguring
+2023/03/30 14:15:28 [notice] 251069#251069: reconfiguring
+2023/03/30 14:15:28 [warn] 251069#251069: could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+2023/03/30 14:15:28 [notice] 251069#251069: using the "epoll" event method
+2023/03/30 14:15:28 [notice] 251069#251069: start worker processes
+2023/03/30 14:15:28 [notice] 251069#251069: start worker process 299580
+2023/03/30 14:15:28 [notice] 251069#251069: start worker process 299581
+2023/03/30 14:15:28 [notice] 299131#299131: gracefully shutting down
+2023/03/30 14:15:28 [notice] 299130#299130: gracefully shutting down
+2023/03/30 14:15:28 [notice] 299130#299130: exiting
+2023/03/30 14:15:28 [notice] 299131#299131: exiting
+2023/03/30 14:15:28 [notice] 299130#299130: exit
+2023/03/30 14:15:28 [notice] 299131#299131: exit
+2023/03/30 14:15:28 [notice] 251069#251069: signal 17 (SIGCHLD) received from 299130
+2023/03/30 14:15:28 [notice] 251069#251069: worker process 299130 exited with code 0
+2023/03/30 14:15:28 [notice] 251069#251069: worker process 299131 exited with code 0
+2023/03/30 14:15:28 [notice] 251069#251069: signal 29 (SIGIO) received
+2023/03/30 14:15:45 [error] 299580#299580: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 104.193.8.71, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/03/30 14:17:18 [error] 299580#299580: *30 connect() failed (111: Connection refused) while connecting to upstream, client: 223.147.193.154, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/03/30 14:24:14 [error] 299580#299580: *35 connect() failed (111: Connection refused) while connecting to upstream, client: 171.221.149.29, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/03/31 00:00:24 [notice] 251069#251069: signal 10 (SIGUSR1) received from 323747, reopening logs
+2023/03/31 00:00:24 [notice] 251069#251069: reopening logs
+2023/03/31 00:00:24 [notice] 299580#299580: reopening logs
+2023/03/31 00:00:24 [notice] 299581#299581: reopening logs
+2023/03/31 12:19:43 [error] 299580#299580: *68 connect() failed (111: Connection refused) while connecting to upstream, client: 104.193.8.71, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/03/31 12:19:48 [error] 299580#299580: *72 connect() failed (111: Connection refused) while connecting to upstream, client: 104.193.8.71, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/03/31 12:19:50 [error] 299580#299580: *75 connect() failed (111: Connection refused) while connecting to upstream, client: 104.193.8.71, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/03/31 12:19:51 [error] 299581#299581: *78 connect() failed (111: Connection refused) while connecting to upstream, client: 104.193.8.71, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/03/31 12:23:21 [error] 299581#299581: *84 connect() failed (111: Connection refused) while connecting to upstream, client: 104.193.8.71, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/03/31 12:23:23 [error] 299581#299581: *87 connect() failed (111: Connection refused) while connecting to upstream, client: 104.193.8.71, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/03/31 12:56:27 [notice] 251069#251069: signal 1 (SIGHUP) received from 352301, reconfiguring
+2023/03/31 12:56:27 [notice] 251069#251069: reconfiguring
+2023/03/31 12:56:27 [warn] 251069#251069: could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+2023/03/31 12:56:27 [notice] 251069#251069: using the "epoll" event method
+2023/03/31 12:56:27 [notice] 251069#251069: start worker processes
+2023/03/31 12:56:27 [notice] 251069#251069: start worker process 352302
+2023/03/31 12:56:27 [notice] 251069#251069: start worker process 352303
+2023/03/31 12:56:27 [notice] 299581#299581: gracefully shutting down
+2023/03/31 12:56:27 [notice] 299580#299580: gracefully shutting down
+2023/03/31 12:56:27 [notice] 299580#299580: exiting
+2023/03/31 12:56:27 [notice] 299580#299580: exit
+2023/03/31 12:56:27 [notice] 251069#251069: signal 17 (SIGCHLD) received from 299580
+2023/03/31 12:56:27 [notice] 251069#251069: worker process 299580 exited with code 0
+2023/03/31 12:56:27 [notice] 251069#251069: signal 29 (SIGIO) received
+2023/03/31 12:56:38 [notice] 299581#299581: exiting
+2023/03/31 12:56:38 [notice] 299581#299581: exit
+2023/03/31 12:56:38 [notice] 251069#251069: signal 17 (SIGCHLD) received from 299581
+2023/03/31 12:56:38 [notice] 251069#251069: worker process 299581 exited with code 0
+2023/03/31 12:56:38 [notice] 251069#251069: signal 29 (SIGIO) received
+2023/04/01 00:00:11 [notice] 251069#251069: signal 10 (SIGUSR1) received from 375366, reopening logs
+2023/04/01 00:00:11 [notice] 251069#251069: reopening logs
+2023/04/01 00:00:11 [notice] 352303#352303: reopening logs
+2023/04/01 00:00:11 [notice] 352302#352302: reopening logs
+2023/04/02 04:41:54 [error] 352302#352302: *145 connect() failed (111: Connection refused) while connecting to upstream, client: 124.232.7.38, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/04/02 04:42:15 [error] 352302#352302: *147 connect() failed (111: Connection refused) while connecting to upstream, client: 124.232.7.38, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/04/02 04:45:13 [error] 352302#352302: *153 connect() failed (111: Connection refused) while connecting to upstream, client: 124.232.7.38, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/04/02 04:46:01 [error] 352302#352302: *156 connect() failed (111: Connection refused) while connecting to upstream, client: 174.137.59.208, server: , request: "GET /api/ws/chat HTTP/1.1", upstream: "http://127.0.0.1:9000/api/ws/chat", host: "13.48.132.59:34568"
+2023/04/04 04:15:31 [error] 352303#352303: *238 user "admin": password mismatch, client: 218.88.127.204, server: , request: "GET / HTTP/1.1", host: "13.48.132.59:34568"
